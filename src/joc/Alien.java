@@ -20,8 +20,8 @@ public class Alien extends Player{
     @Override
     public void attack(Player p) throws ExcepcioJocRol{
         if(this.life>20){
-            this.attackPoints *= 1.3;
-            this.defensePoints *= 0.7;
+            this.attackPoints *= 2;
+            this.defensePoints *= 0.3;
         }
         super.attack(p);
     }
